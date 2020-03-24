@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Tag는 화면에 출력되지 않음.
+브라우저는 tag들을 해석해서 화면부분만 처리(인터프리터)
+Head 영역에는 스타일 시트와 자바 스크립트가 올 수 있다.
+
+html 용어
+Tag<body>,</body>
+요소
+속성
+
+
+  -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>처음 만들어 보는 HTML</title>
+<script type=text/javascript>
+	var i = 20;//자바스크립트도 컴파일하지 않음. 데이터 타입은 런타임시 결정
+	function send(){//함수-컴파일러 하지 않음-문법에러를 발견하기 힘듬.
+		alert("send 호출 성공");
+		console.log("send");
+	}
+</script>
+</head>
+<body>
+<!-- 주석임.  -->
+hyper text markup <b>language</b>
+<button onClick="send()">전송</button>
+<img src="../images/lava1.jpg"/>
+</body>
+</html>
